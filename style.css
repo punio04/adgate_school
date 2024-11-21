@@ -1643,7 +1643,7 @@ figure.wp-block-image.aligncenter.size-full {
   }
 
   .font_wrapper p {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   [data-mesh-id=comp-lgvjvu2k4inlineContent-gridContainer]>[id="comp-lgvjvu2p5"] {
@@ -1732,6 +1732,7 @@ figure.wp-block-image.aligncenter.size-full {
 
   .section_get_skill .skill_list .skill_detail p {
     letter-spacing: 0;
+    font-weight: 600;
   }
 
   #comp-lgvjvu2x {
