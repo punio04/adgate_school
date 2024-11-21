@@ -1431,10 +1431,19 @@ figure.wp-block-image.aligncenter.size-full {
 .font_wrapper {
   width: 850px;
   margin: 0 auto;
-  padding-bottom: 50px;
 }
 
 .font_wrapper p {
+  font-size: 18px;
+}
+
+.last_wrapper {
+  width: 850px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.last_wrapper p {
   font-size: 18px;
 }
 
@@ -1446,6 +1455,10 @@ figure.wp-block-image.aligncenter.size-full {
   display: block;
 }
 
+
+.last-wrapper {
+  padding-bottom: 50px;
+}
 
 
 
@@ -1461,6 +1474,10 @@ figure.wp-block-image.aligncenter.size-full {
     background: #F6F287;
     height: 10px;
     z-index: -1;
+  }
+
+  .last-wrapper {
+    padding-bottom: 30px;
   }
 
   body {
@@ -1643,7 +1660,11 @@ figure.wp-block-image.aligncenter.size-full {
   }
 
   .font_wrapper p {
-    font-size: 13px;
+    font-size: 15px;
+  }
+
+  .last_wrapper p {
+    font-size: 15px;
   }
 
   [data-mesh-id=comp-lgvjvu2k4inlineContent-gridContainer]>[id="comp-lgvjvu2p5"] {
@@ -1706,6 +1727,12 @@ figure.wp-block-image.aligncenter.size-full {
   .font_wrapper {
     width: 90%;
     margin: 0 auto;
+  }
+
+  .last_wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
   }
 
   .section_get_skill .skill_list {
@@ -1804,11 +1831,6 @@ figure.wp-block-image.aligncenter.size-full {
     margin-top: 50px;
     font-weight: 400;
   }
-
-  .font_wrapper {
-    padding-bottom: 30px;
-  }
-
 }
 
 @media (max-width: 425px) {
@@ -1840,6 +1862,17 @@ figure.wp-block-image.aligncenter.size-full {
     z-index: 3;
     width: 70%;
   }
-}
 
-</style>
+  .skill_detail p {
+    font-size: 13px;
+    line-height: inherit;
+  }
+
+  .font_wrapper p {
+    font-size: 13px;
+  }
+
+  .last_wrapper p {
+    font-size: 13px;
+  }
+}
